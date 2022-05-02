@@ -15,3 +15,10 @@ write-output "$breakline   Starting PySpark Cookbook Download"
 git clone https://github.com/PacktPublishing/PySpark-Cookbook.git PySpark-Cookbook
 write-output "$breakline   Ending PySpark Cookbook Download"
 get-date
+write-output "$breakline   Starting Object Creation.  This will require input"
+cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
+# In Windows PowerShell, enter the following command to run the setup script:
+
+.\dp-203-setup-Part01.ps1
+get-date
+write-output "$breakline   Ending Object Creation. "
